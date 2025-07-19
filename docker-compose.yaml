@@ -1,0 +1,37 @@
+
+services:
+  sim1:
+    image: matachana-simulator
+    container_name: matachana-sim-1
+    ports:
+      - "192.168.1.90:8000:8000"
+      - "192.168.1.90:8001:8001"
+
+  sim2:
+    image: matachana-simulator
+    container_name: matachana-sim-2
+    ports:
+      - "192.168.1.91:8000:8000"
+      - "192.168.1.91:8001:8001"
+
+  sim3:
+    image: matachana-simulator
+    container_name: matachana-sim-3
+    ports:
+      - "192.168.1.92:8000:8000"
+      - "192.168.1.92:8001:8001"
+
+
+  sim4:
+    image: matachana-simulator
+    container_name: matachana-sim-4
+    ports:
+      - "192.168.1.93:8000:8000"
+      - "192.168.1.93:8001:8001"
+
+  sim5:
+    image: matachana-simulator
+    container_name: matachana-sim-5
+    ports:
+      - "192.168.1.94:8000:8000"
+      - "192.168.1.94:8001:8001"
